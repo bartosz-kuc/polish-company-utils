@@ -1,0 +1,56 @@
+{
+  "name": "polish-company-utils",
+  "version": "1.0.0",
+  "description": "Zero-dependency validators and helpers for Polish business identifiers: NIP, REGON, PESEL, bank account (NRB/IBAN) and the tax micro-account (mikrorachunek). Works with both require and import.",
+  "keywords": [
+    "nip",
+    "regon",
+    "pesel",
+    "nrb",
+    "iban",
+    "mikrorachunek",
+    "poland",
+    "polish",
+    "vat",
+    "tax-id",
+    "krs",
+    "gus",
+    "biala-lista",
+    "company",
+    "validation",
+    "checksum",
+    "walidacja"
+  ],
+  "homepage": "https://skanfirmy.pl",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartosz-kuc/polish-company-utils.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bartosz-kuc/polish-company-utils/issues"
+  },
+  "author": "Bartosz Kuć <firma@bartosza.pl> (https://skanfirmy.pl)",
+  "license": "MIT",
+  "type": "commonjs",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "require": "./index.js",
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=12"
+  }
+}
