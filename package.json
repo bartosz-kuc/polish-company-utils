@@ -29,7 +29,7 @@
   "bugs": {
     "url": "https://github.com/bartosz-kuc/polish-company-utils/issues"
   },
-  "author": "Bartosz Kuć <firma@bartosza.pl> (https://skanfirmy.pl)",
+  "author": "Bartosz Kuć <kontakt@skanfirmy.pl> (https://skanfirmy.pl)",
   "license": "MIT",
   "type": "commonjs",
   "main": "index.js",
